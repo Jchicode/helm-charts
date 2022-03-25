@@ -120,7 +120,7 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 {{- end -}}
 
 {{/*
-Create a fully qualified vmselect name.
+Create a fully qualified vminsert name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 */}}
 {{- define "victoria-metrics.vminsert.fullname" -}}
